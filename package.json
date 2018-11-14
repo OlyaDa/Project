@@ -19,5 +19,8 @@
   "devDependencies": {
     "gulp-autoprefixer": "^6.0.0",
     "gulp-watch": "^5.0.1"
+  },
+  "dependencies": {
+    "gulp": "github:gulpjs/gulp#v4.0.0-alpha.3"
   }
 }
