@@ -3,10 +3,107 @@
 	box-sizing: border-box;
 }
 
-body {
-	font-family: open-sans, Arial, sans-serif;
-	background-color: #fff;
+.wrapper {
+	overflow: hidden;
 }
 
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;	
+}
 
+.clearfix:after {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+.list-reset {
+	list-style: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+.container {
+	max-width: 1200px;
+	padding: 0 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center_text {
+	text-align: center;
+}
+
+/*tutorials*/
+
+.tutorials {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.section_h2 {
+	text-transform: capitalize;
+	font-size: 19px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 60px;
+}
+
+.raw {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.col_4 {
+	float: left;
+	width: 33.3333%;
+	padding: 15px;
+}
+
+.tutorials .card img {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.tutorials .tutorial_name {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 13px;
+	font-weight: bold;
+	padding-bottom: 41px;
+	padding-top: 41px;
+	background-color: #f8f8f8;
+}
+
+@media (max-width: 992px) {
+	.tutorials .col_4 {
+		width: 50%;
+	}
+}
+
+@media (max-width: 768px) {
+	.tutorials .col_4 {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.tutorials .section_h2 {
+		font-size: 16px;
+		margin-bottom: 40px;
+	}
+
+	.tutorials .tutorial_name {
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+
+	.tutorials {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
 
