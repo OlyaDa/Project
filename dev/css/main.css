@@ -142,10 +142,14 @@
 }
 
 .btn-success {
+	font-family: 'Roboto', 'Arial', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
 	background-color: #8bc34a;
 	color: #fff;
 	padding: 11px 21px 9px 21px;
 	margin-left: 20px;
+	font-weight: bold;
 }
  
 .btn-success:hover {
@@ -156,6 +160,11 @@
 	background-color: #e74c3c;
 	color: #fff;
 	padding: 11px 13px 9px 13px;
+	font-family: 'Roboto', 'Arial', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 7px;
 }
 
 .btn-danger:hover {
@@ -213,6 +222,8 @@ img {
 	margin: 0;
 	list-style: none;
 }
+
+/*--------------FOOTER---------*/
 
 footer {
 	background-color: #263238;
