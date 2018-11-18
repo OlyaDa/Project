@@ -243,6 +243,8 @@ img {
 
 /*---------------BANNER---------*/
 .banner {
+	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background: url('../images/bg.jpg') no-repeat center;
 	color: white;
 	display: -webkit-box;
