@@ -55,6 +55,7 @@
 
 .help {
 	display: inline-block;
+	margin-bottom: 8px;
 }
 
 .help a {
@@ -64,6 +65,7 @@
 	text-decoration: none;
 	-webkit-transition: color .3s;
 	transition: color .3s;
+	font-size: 14px;
 }
 
 .help a:hover {
@@ -74,6 +76,7 @@
 	color: #546e7a;
 	font-style: normal;
 	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
 }
 
 .talk a {
@@ -84,6 +87,7 @@
 	-webkit-transition: color .3s;
 	transition: color .3s;
 	margin-right: 28px;
+	font-size: 14px;
 }
 
 .talk a:hover {
@@ -164,7 +168,7 @@
 	font-size: 14px;
 	background-color: #8bc34a;
 	color: #fff;
-	padding: 11px 21px 9px 21px;
+	padding: 10px 21px 10px 21px;
 	margin-left: 20px;
 	font-weight: bold;
 }
@@ -176,7 +180,7 @@
 .btn-danger {
 	background-color: #e74c3c;
 	color: #fff;
-	padding: 11px 13px 9px 13px;
+	padding: 10px 13px 10px 13px;
 	font-family: 'Roboto', 'Arial', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
@@ -198,6 +202,7 @@
 	float: left;
 	/*padding: 0 16px;*/
 	margin-right: 33px;
+	font-size: 14px;
 }
 .menu li:last-child{
 	margin-right: 0;
