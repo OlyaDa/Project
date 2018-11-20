@@ -401,3 +401,122 @@ footer {
 	text-align: center;
 	border-top: 1px solid #424d53;
 }
+
+.why_you_choose {
+	max-width: 1220px;
+	padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+	margin: 0 auto;
+}
+
+.container_why	{
+	background-color: #263238;
+}
+.center {
+    text-align: center;
+}
+
+.why_you_choose h2 {
+	font-family: 'Roboto';
+	font-weight: 700;
+	font-size: 36px;
+	color: #ffffff;
+	margin: 0;
+	padding-top: 115px;
+	padding-bottom: 85px;
+}
+
+.col-4 {
+    width:33.3333%;
+    float:left;
+    padding:0 45px;
+} 
+
+.row {
+    margin-right:-15px;
+    margin-left:-15px;  
+}
+
+.clearfix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.image_why img {
+    width:35%;
+    height:auto;
+}
+
+.why_you_choose h3 {
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 24px;
+	color: #ffffff;
+	margin: 0;
+	padding-top: 25px;
+	padding-bottom: 27px;
+}
+
+.why_you_choose span {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 15px;
+	color: #b0bec5;
+	line-height: 1.5;
+	padding-bottom: 120px;
+}
+
+.card {
+	padding-bottom: 115px;
+}
+
+.why_you_choose h3:hover {
+	color: #8bc34a;
+	cursor: pointer;
+}
+
+.image_why img:hover {
+	-webkit-filter: brightness(145%);
+	filter: brightness(145%);
+}
+
+ @media (max-width: 768px)
+ {
+.col-4 {
+	width: 50%;
+    float:left;
+    padding:0 45px;
+}
+
+.card {
+	padding-bottom: 50px;
+}
+}
+
+@media (max-width:560px) {
+.col-4 {
+	width: 100%;
+}
+.why_you_choose h2 {
+	font-size: 26px;
+	}
+.why_you_choose h3 {
+	font-size: 20px;
+}	
+}
+
+@media (max-width:320px) {
+.why_you_choose h2 {
+	font-size: 22px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.why_you_choose h3 {
+	font-size: 17px;
+}	
+.why_you_choose span{
+	font-size: 15px;
+}
+}
