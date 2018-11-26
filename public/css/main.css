@@ -1942,9 +1942,9 @@ footer img {
 /*------------------------------------------------------TABS-FILTERS navigation----------------------------------------------------------------------*/
 
 
-.second_row {
-    margin-left:-15px;
-    margin-right: -15px;
+.row_more {
+	margin-left:-5px;
+	margin-right: -5px;
     display: flex; /*если нужно поместить справа чот еще*/
     flex-wrap: wrap;
 }
@@ -2012,8 +2012,11 @@ footer img {
 
 .card_more {
     display: flex;
-    
-    
+}
+
+.col-3 {
+	padding-left:5px;
+	padding-right: 5px;
 }
 
 .left_content {
@@ -2023,7 +2026,25 @@ footer img {
     justify-content: space-between;
 }
 
+@media screen and (max-width: 1200px) {
+	.rightside_text {
+		padding-right: 19px;
+		padding-left:12px;
+	}
 
+}
+
+@media screen and (max-width: 1100px) {
+
+	.rightside_text {
+		padding-right: 9px;
+		padding-left: 7px;
+	}
+
+	.rightside_text h3 {
+		font-size:12px;
+	}
+}
 @media screen and (max-width: 1024px) {
     .col-3 {
         padding-right: 40px;
@@ -2045,9 +2066,9 @@ footer img {
 
 @media screen and (max-width: 992px) {
     .topmore {
-        width:100%;
-        margin-left:15px;
-        margin-right: 15px;
+        width:95%;
+		margin:0 auto;
+		margin-bottom: 15px;
     }
 
 .left_content {
@@ -2065,8 +2086,22 @@ footer img {
     padding-left:10px;
     padding-right: 30px;
 }
+}
 
+@media screen and (max-width: 584px) {
+	p {
+		font-size: 14px;
+		padding: 3px;
+		margin-bottom: 0px;
+	}
 
+	.rightside_text h3 {
+		margin-bottom: 5px;
+	}
+
+	.rightside_text p {
+		margin-bottom:5px;
+	}
 }
 
 
