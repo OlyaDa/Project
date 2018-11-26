@@ -2045,6 +2045,7 @@ footer img {
 		font-size:12px;
 	}
 }
+
 @media screen and (max-width: 1024px) {
     .col-3 {
         padding-right: 40px;
