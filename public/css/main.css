@@ -610,7 +610,7 @@ p {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;  
     border-radius: 2px;
-    position: relative; /*для анимации подпрыгивания*/
+    position: relative; 
     cursor: pointer;
 }
 
@@ -644,7 +644,7 @@ p {
 .cars {
     position: relative;
     border: 1px solid #d4d4d4;
-    background:white;  /*1 баг отступ между блоками пофиксил задав цвет карду картинковский*/
+    background:white;  
 }
 
 .image img {
