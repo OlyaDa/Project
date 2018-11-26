@@ -896,7 +896,10 @@ p {
 		}
 	
 		.toggles {
+			display: -webkit-box;
+			display: -ms-flexbox;
 			display: flex;
+			-ms-flex-wrap: wrap;
 			flex-wrap: wrap;
 			margin-bottom: 20px;
 		}
@@ -1945,7 +1948,10 @@ footer img {
 .second_row {
     margin-left:-15px;
     margin-right: -15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; /*если нужно поместить справа чот еще*/
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
@@ -2011,6 +2017,8 @@ footer img {
 }
 
 .card_more {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     
     
@@ -2018,8 +2026,13 @@ footer img {
 
 .left_content {
     width:75%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -2032,6 +2045,8 @@ footer img {
     
 
     .left_content {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
     }
 
@@ -2052,6 +2067,8 @@ footer img {
 
 .left_content {
     width:100%;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
     justify-content:center;
  
     
@@ -2068,6 +2085,135 @@ footer img {
 
 
 }
+
+/*-------------------------------------------ВТОРОЙ МАКЕТ ЛЕНА -----------------------*/
+/*---------------BANNER---------*/
+.banner2 {
+	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	background: url('../images/bg.jpg') no-repeat center;
+	color: white;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	background-size: cover;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-height: 230px;
+}
+
+.banner2 h1 {
+	font-size: 48px;
+	padding: 0;
+	margin: 0;
+	font-family: roboto;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.banner2 p {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 50px;
+	font-size: 20px;
+	font-family: roboto;
+}
+
+.banner2 form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 670px;
+	height: 60px;
+}
+
+.banner2 .input {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	font-size: 14px;
+	border: 0;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.banner2 .submit {
+	background: url('../images/search.png') no-repeat center;
+	background-size: contain;
+	border: 0;
+	background-color: white;
+	border-radius: 0px 5px 5px 0px;
+	padding-right: 20px;
+
+}
+
+@media (max-width: 768px) {
+
+.banner2 {
+	min-height: 350px;
+}
+
+.banner2 h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.banner2 form {
+	width: 80%;
+}
+
+}
+
+ @media (max-width: 576px) {
+
+ .banner2 {
+	min-height: 300px;
+}
+
+.banner2 form {
+	height: 40px;
+}
+
+.banner2 p {
+	font-size: 18px;
+	padding: 5px;
+	margin-bottom: 40px;
+}
+
+}
+
+ @media (max-width: 320px) {
+
+.banner2 {
+	min-height: 250px;
+}
+
+.banner2 form {
+	height: 30px;
+}
+ 
+.banner2 h1 {
+	font-size: 35px;
+}
+
+.banner2 p {
+	padding: 5px;
+	margin-bottom: 30px;
+}
+
+}
+
 
 
 /*/////////////////////СТИЛИ ПО ТРЕТЕМУ МАКЕТУ////////////////////*/
