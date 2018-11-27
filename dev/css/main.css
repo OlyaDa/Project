@@ -431,6 +431,7 @@ body {
 	margin-bottom: 50px;
 	font-size: 20px;
 	font-family: roboto;
+	text-align: center;
 }
 
 .banner .search{
@@ -463,15 +464,14 @@ body {
 	min-height: 450px;
 }
 
-h1 {
+.banner h1 {
 	text-align: center;
 	font-size: 40px;
 }
 
-form {
-	width: 80%;
+.banner .search {
+width: 80%;
 }
-
 }
 
  @media (max-width: 576px) {
@@ -480,16 +480,15 @@ form {
 	min-height: 400px;
 }
 
-form {
+.banner .search {
 	height: 40px;
 }
 
-p {
+.banner p {
 	font-size: 18px;
 	padding: 5px;
 	margin-bottom: 40px;
 }
-
 }
 
  @media (max-width: 320px) {
@@ -498,15 +497,15 @@ p {
 	min-height: 350px;
 }
 
-form {
+.banner .search {
 	height: 30px;
 }
  
- h1 {
+.banner h1 {
 	font-size: 35px;
 }
 
-p {
+.banner p {
 	padding: 5px;
 	margin-bottom: 30px;
 }
