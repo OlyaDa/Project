@@ -522,7 +522,6 @@ input::-webkit-input-placeholder {
 .banner form {
 	width: 80%;
 }
-
 }
 
  @media (max-width: 576px) {
@@ -540,7 +539,6 @@ input::-webkit-input-placeholder {
 	padding: 5px;
 	margin-bottom: 40px;
 }
-
 }
 
  @media (max-width: 320px) {
