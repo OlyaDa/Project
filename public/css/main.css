@@ -2302,6 +2302,8 @@ footer img {
 	font-size: 15px;
 	color: #707070;
 	border: solid 1px #dcdcdc;
+	padding-top:8px;
+	padding-left: 5px;
 }
 
 .worksheet .item-form {
@@ -2341,6 +2343,11 @@ footer img {
 .worksheet .btn-submit:hover {
 	background-color: grey;
 }
+.worksheet textarea {
+	resize: none
+}
+
+
 
 /**----------------------------------------------------------*/
 @media (max-width: 1180px) {
