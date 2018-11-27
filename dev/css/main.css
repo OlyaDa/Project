@@ -474,7 +474,7 @@ input::-webkit-input-placeholder {
 	margin-bottom: 50px;
 	font-size: 20px;
 	font-family: roboto;
-	text-align: center;
+	text-align: center; 
 }
 
 .banner .search{
