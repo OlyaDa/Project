@@ -519,8 +519,8 @@ input::-webkit-input-placeholder {
 	font-size: 40px;
 }
 
-.banner form {
-	width: 80%;
+.banner .search {
+width: 80%;
 }
 }
 
@@ -530,7 +530,7 @@ input::-webkit-input-placeholder {
 	min-height: 400px;
 }
 
-.banner form {
+.banner .search {
 	height: 40px;
 }
 
@@ -547,7 +547,7 @@ input::-webkit-input-placeholder {
 	min-height: 350px;
 }
 
-.banner form {
+.banner .search {
 	height: 30px;
 }
  
