@@ -474,6 +474,7 @@ input::-webkit-input-placeholder {
 	margin-bottom: 50px;
 	font-size: 20px;
 	font-family: roboto;
+	text-align: center;
 }
 
 .banner .search{
@@ -513,12 +514,12 @@ input::-webkit-input-placeholder {
 	min-height: 450px;
 }
 
-h1 {
+.banner h1 {
 	text-align: center;
 	font-size: 40px;
 }
 
-form {
+.banner form {
 	width: 80%;
 }
 
@@ -530,11 +531,11 @@ form {
 	min-height: 400px;
 }
 
-form {
+.banner form {
 	height: 40px;
 }
 
-p {
+.banner p {
 	font-size: 18px;
 	padding: 5px;
 	margin-bottom: 40px;
@@ -548,15 +549,15 @@ p {
 	min-height: 350px;
 }
 
-form {
+.banner form {
 	height: 30px;
 }
  
- h1 {
+.banner h1 {
 	font-size: 35px;
 }
 
-p {
+.banner p {
 	padding: 5px;
 	margin-bottom: 30px;
 }
