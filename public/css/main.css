@@ -267,11 +267,11 @@ body {
 }
 
 @media (max-width: 410px) {
-	.btn-success {
+	/*.btn-success {
 		padding: 8px 15px 8px 15px;
 		margin-right: 7px;
 		font-size: 10px
-	}
+	}*/
 	.btn-danger {
 		background-color: #e74c3c;
 		color: #fff;
@@ -2070,176 +2070,10 @@ footer img {
 }
 
 }
-/*-----------------------------------------------------ФОРМЫ---------------------*/
-* {
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
+/*/////////////////////СТИЛИ ПО ТРЕТЕМУ МАКЕТУ////////////////////*/
 
-.wrapper {
-	overflow: hidden;
-}
 
-/*---------------BANNER---------*/
-.banner2 {
-	font-family: 'Lato', sans-serif;
-	font-family: 'Roboto', sans-serif;
-	background: url('../images/bg.jpg') no-repeat center;
-	color: white;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	background-size: cover;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	min-height: 230px;
-}
-
-.banner2 h1 {
-	font-size: 48px;
-	padding: 0;
-	margin: 0;
-	font-family: 'Roboto', sans-serif;
-	font-weight: bold;
-	margin-bottom: 40px;
-}
-
-.banner2 p {
-	padding: 0;
-	margin: 0;
-	margin-bottom: 50px;
-	font-size: 20px;
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
-}
-
-.banner2 form {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	width: 670px;
-	height: 60px;
-}
-
-.banner2 .input {
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-webkit-box-flex: 1;
-	-ms-flex-positive: 1;
-	flex-grow: 1;
-	font-size: 14px;
-	border: 0;
-	border-radius: 5px 0px 0px 5px;
-}
-
-.banner2 .submit {
-	background: url('../images/search.png') no-repeat center;
-	background-size: contain;
-	border: 0;
-	background-color: white;
-	border-radius: 0px 5px 5px 0px;
-	padding-right: 20px;
-
-}
-
-@media (max-width: 768px) {
-
-.banner2 {
-	min-height: 350px;
-}
-
-.banner2 h1 {
-	text-align: center;
-	font-size: 40px;
-}
-
-.banner2 form {
-	width: 80%;
-}
-
-}
-
- @media (max-width: 576px) {
-
- .banner2 {
-	min-height: 300px;
-}
-
-.banner2 form {
-	height: 40px;
-}
-
-.banner2 p {
-	font-size: 18px;
-	padding: 5px;
-	margin-bottom: 40px;
-}
-
-}
-
- @media (max-width: 320px) {
-
-.banner2 {
-	min-height: 250px;
-}
-
-form {
-	height: 30px;
-}
- 
-.banner2 h1 {
-	font-size: 35px;
-}
-
-.banner2 p {
-	padding: 5px;
-	margin-bottom: 30px;
-}
-
-}
-/*-----------------------------------------------*/
-
-/*bread-crumbs*/
-
-.bread-crumbs {
-	padding: 45px 0;
-}
-
-.bread-crumbs li {
-	display: inline-block;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	font-size: 15px;
-	color: #b0bec5;
-	cursor: pointer;
-}
-
-.bread-crumbs li:nth-child(2):before {
-	content: '-';
-	padding-left: 4px;
-	padding-right: 8px;
-}
-
-.bread-crumbs li:last-child:before {
-	content: '-';
-	padding-left: 4px;
-	padding-right: 8px;
-}
-
-.bread-crumbs li:last-child {
-	color: #263238;
-}
-
+/*---------------------------------------------------FORMS---------------------------*/
 /*---------------------------------------worksheet-----------------*/
 .worksheet {
 	border: solid 1px #dcdcdc;
@@ -2263,20 +2097,24 @@ form {
 }
 
 .worksheet h6 {
-	font-family: 'Roboto', sans-serif;
+	font-family: roboto;
 	font-size: 15px;
 	color: #565656;
 	padding: 0;
 	margin:0;
 	padding-left: 45px;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 	display: inline-block;
 	font-weight: normal;
 }
 
+.set-price-forms h6 {
+	padding-bottom: 30px;
+}
+
 .worksheet span {
 	color:#8bc34a;
-	font-family: 'Roboto', sans-serif;
+	font-family: roboto;
 	font-size: 24px;
 	padding-right: 45px;
 }
@@ -2304,7 +2142,7 @@ form {
 	border: solid 1px #dcdcdc;
 }
 
-.prod-desc {	
+.worksheet .prod-desc {	
 	border: solid 1px #dcdcdc;
 	min-height: 150px;
 	margin-bottom: 25px;
@@ -2312,7 +2150,7 @@ form {
     padding-left: 10px;
 }
 
-.upload {
+.worksheet .upload {
 	width: 880px;
 	height: 40px;
 	background-color: #f4f6f5;
@@ -2321,7 +2159,7 @@ form {
 	border: solid 1px #dcdcdc;
 }
 
-.item-form {
+.worksheet .item-form {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -2330,7 +2168,7 @@ form {
 	justify-content: space-between;
 }
 
-.column-form {
+.worksheet .column-form {
 	margin-right: 50px;
 }
 
@@ -2344,7 +2182,7 @@ form {
 	background-color: #8bc34a;
 	color: white;
 	font-size: 15px;
-	font-family: 'Roboto', sans-serif;
+	font-family: roboto;
 	padding-left: 35px;
 	padding-right: 35px;
 	padding-top: 15px;
@@ -2352,7 +2190,7 @@ form {
 	cursor: pointer;
 	border: 0px;
 	margin-left: 235px;
-	font-weight: bold;
+	font-weight: 550;
 }
 
 .worksheet .btn-submit:hover {
@@ -2370,11 +2208,11 @@ form {
 	width: 800px;	
 }
 
-.upload {
+.worksheet .upload {
 	width: 800px;
 }
 }
-
+/*------------------------------------------------*/
 @media (max-width: 992px) {
 
 .worksheet h2 {
@@ -2383,12 +2221,12 @@ form {
 	margin-bottom: 25px;
 }
 
-.worksheet h6 {	
+.worksheet .worksheet h6 {	
 	padding-left: 45px;
 	padding-bottom: 50px;
 }
 
-.worksheet span {
+.worksheet .worksheet span {
 	font-size: 24px;
 	padding-right: 45px;
 }
@@ -2405,12 +2243,12 @@ form {
 	font-size: 15px;
 }
 
-.prod-desc {	
+.worksheet .prod-desc {	
 	min-height: 100px;
 	padding-bottom: 65px;
 }
 
-.upload {
+.worksheet .upload {
 	width: 650px;
 	height: 30px;
 }
@@ -2442,16 +2280,16 @@ form {
 	height: 30px;	
 }
 
-.prod-desc {	
+.worksheet .prod-desc {	
 	min-height: 100px;
 	padding-bottom: 50px;
 }
 
-.upload {
+.worksheet .upload {
 	width: 500px;
 }
 
-.column-form {
+.worksheet .column-form {
 	margin-right: 30px;
 }
 
@@ -2481,20 +2319,20 @@ form {
 	width: 360px;
 }
 
-.prod-desc {	
+.worksheet .prod-desc {	
 	min-height: 80px;
 	padding-bottom: 30px;
 }
 
-.upload {
+.worksheet .upload {
 	width: 360px;
 }
 
-.column-form {
+.worksheet .column-form {
 	margin-right: 15px;
 }
 
-.bread-crumbs {
+.worksheet .bread-crumbs {
 	padding: 25px 0;
 }
 
@@ -2536,20 +2374,20 @@ form {
 	font-size: 8px;
 }
 
-.prod-desc {	
+.worksheet .prod-desc {	
 	min-height: 75px;
 	margin-bottom: 10px;
 	padding-bottom: 50px;
     padding-left: 5px;
 }
 
-.upload {
+.worksheet .upload {
 	width: 170px;
 	height: 25px;
 	font-size: 12px;
 }
 
-.column-form {
+.worksheet .column-form {
 	margin-right: 5px;
 }
 
