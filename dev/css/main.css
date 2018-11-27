@@ -474,6 +474,7 @@ input::-webkit-input-placeholder {
 	margin-bottom: 50px;
 	font-size: 20px;
 	font-family: roboto;
+	text-align: center;
 }
 
 .banner .search{
@@ -513,12 +514,12 @@ input::-webkit-input-placeholder {
 	min-height: 450px;
 }
 
-h1 {
+.banner h1 {
 	text-align: center;
 	font-size: 40px;
 }
 
-form {
+.banner form {
 	width: 80%;
 }
 
@@ -530,11 +531,11 @@ form {
 	min-height: 400px;
 }
 
-form {
+.banner form {
 	height: 40px;
 }
 
-p {
+.banner p {
 	font-size: 18px;
 	padding: 5px;
 	margin-bottom: 40px;
@@ -548,15 +549,15 @@ p {
 	min-height: 350px;
 }
 
-form {
+.banner form {
 	height: 30px;
 }
  
- h1 {
+.banner h1 {
 	font-size: 35px;
 }
 
-p {
+.banner p {
 	padding: 5px;
 	margin-bottom: 30px;
 }
@@ -2125,6 +2126,7 @@ footer img {
 	margin-bottom: 50px;
 	font-size: 20px;
 	font-family: roboto;
+	text-align: center;
 }
 
 .banner2 form {
@@ -2229,135 +2231,6 @@ footer img {
 .wrapper {
 	overflow: hidden;
 }
-
-/*---------------BANNER---------*/
-.banner2 {
-	font-family: 'Lato', sans-serif;
-	font-family: 'Roboto', sans-serif;
-	background: url('../images/bg.jpg') no-repeat center;
-	color: white;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
-	background-size: cover;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	min-height: 230px;
-}
-
-.banner2 h1 {
-	font-size: 48px;
-	padding: 0;
-	margin: 0;
-	font-family: roboto;
-	font-weight: bold;
-	margin-bottom: 40px;
-}
-
-.banner2 p {
-	padding: 0;
-	margin: 0;
-	margin-bottom: 50px;
-	font-size: 20px;
-	font-family: roboto;
-}
-
-.banner2 form {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	width: 670px;
-	height: 60px;
-}
-
-.banner2 .input {
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-	flex-direction: row;
-	-webkit-box-flex: 1;
-	-ms-flex-positive: 1;
-	flex-grow: 1;
-	font-size: 14px;
-	border: 0;
-	border-radius: 5px 0px 0px 5px;
-}
-
-.banner2 .submit {
-	background: url('../images/search.png') no-repeat center;
-	background-size: contain;
-	border: 0;
-	background-color: white;
-	border-radius: 0px 5px 5px 0px;
-	padding-right: 20px;
-
-}
-
-@media (max-width: 768px) {
-
-.banner2 {
-	min-height: 350px;
-}
-
-.banner2 h1 {
-	text-align: center;
-	font-size: 40px;
-}
-
-.banner2 form {
-	width: 80%;
-}
-
-}
-
- @media (max-width: 576px) {
-
- .banner2 {
-	min-height: 300px;
-}
-
-.banner2 form {
-	height: 40px;
-}
-
-.banner2 p {
-	font-size: 18px;
-	padding: 5px;
-	margin-bottom: 40px;
-}
-
-}
-
- @media (max-width: 320px) {
-
-.banner2 {
-	min-height: 250px;
-}
-
-form {
-	height: 30px;
-}
- 
-.banner2 h1 {
-	font-size: 35px;
-}
-
-.banner2 p {
-	padding: 5px;
-	margin-bottom: 30px;
-}
-
-}
-/*-----------------------------------------------*/
-
 /*bread-crumbs*/
 
 .bread-crumbs {
@@ -2418,10 +2291,15 @@ form {
 	padding: 0;
 	margin:0;
 	padding-left: 45px;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 	display: inline-block;
 	font-weight: normal;
 }
+
+.set-price-forms h6 {
+	padding-bottom: 30px;
+}
+
 
 .worksheet span {
 	color:#8bc34a;
@@ -2453,7 +2331,7 @@ form {
 	border: solid 1px #dcdcdc;
 }
 
-.prod-desc {	
+.worksheet .prod-desc {	
 	border: solid 1px #dcdcdc;
 	min-height: 150px;
 	margin-bottom: 25px;
@@ -2461,7 +2339,7 @@ form {
     padding-left: 10px;
 }
 
-.upload {
+.worksheet .upload {
 	width: 880px;
 	height: 40px;
 	background-color: #f4f6f5;
@@ -2470,13 +2348,250 @@ form {
 	border: solid 1px #dcdcdc;
 }
 
-.item-form {
+.worksheet .item-form {
 	display: flex;
 	justify-content: space-between;
 }
 
-.column-form {
+.worksheet .column-form {
 	margin-right: 50px;
+}
+
+.worksheet .btn {
+	margin-bottom: 30px;
+	padding-bottom: 100px;
+}
+
+.worksheet .btn-submit {
+	float: left;
+	background-color: #8bc34a;
+	color: white;
+	font-size: 15px;
+	font-family: roboto;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	cursor: pointer;
+	border: 0px;
+	margin-left: 235px;
+	font-weight: 550;
+}
+
+.worksheet .btn-submit:hover {
+	background-color: grey;
+}
+
+/**----------------------------------------------------------*/
+@media (max-width: 1180px) {
+
+.worksheet .list1 {
+	width: 800px;
+}
+
+.worksheet .input-text {
+	width: 800px;	
+}
+
+.worksheet .upload {
+	width: 800px;
+}
+}
+
+@media (max-width: 992px) {
+
+.worksheet h2 {
+	margin-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+}
+
+.worksheet .worksheet h6 {	
+	padding-left: 45px;
+	padding-bottom: 50px;
+}
+
+.worksheet .worksheet span {
+	font-size: 24px;
+	padding-right: 45px;
+}
+
+.worksheet .list1 {
+	width: 650px;
+	height: 30px;
+	font-size: 15px;
+}
+
+.worksheet .input-text {
+	width: 650px;
+	height: 30px;	
+	font-size: 15px;
+}
+
+.worksheet .prod-desc {	
+	min-height: 100px;
+	padding-bottom: 65px;
+}
+
+.worksheet .upload {
+	width: 650px;
+	height: 30px;
+}
+
+}
+/*------------------------------------------------------------------------*/
+@media (max-width: 768px) {
+.worksheet {
+	min-height: 700px;
+}
+	
+.worksheet h6 {	
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+
+.worksheet span {
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.worksheet .list1 {
+	width: 500px;
+	height: 30px;
+}
+
+.worksheet .input-text {
+	width: 500px;
+	height: 30px;	
+}
+
+.worksheet .prod-desc {	
+	min-height: 100px;
+	padding-bottom: 50px;
+}
+
+.worksheet .upload {
+	width: 500px;
+}
+
+.worksheet .column-form {
+	margin-right: 30px;
+}
+
+}
+/*-----------------------------------------------------------------*/
+
+@media (max-width: 576px) {
+.worksheet {
+	min-height: 600px;
+}
+	
+.worksheet h6 {	
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+
+.worksheet span {
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.worksheet .list1 {
+	width: 360px;
+}
+
+.worksheet .input-text {
+	width: 360px;
+}
+
+.worksheet .prod-desc {	
+	min-height: 80px;
+	padding-bottom: 30px;
+}
+
+.worksheet .upload {
+	width: 360px;
+}
+
+.worksheet .column-form {
+	margin-right: 15px;
+}
+
+.worksheet .bread-crumbs {
+	padding: 25px 0;
+}
+
+}
+/*-----------------------------------------------------------*/
+@media (max-width: 320px) {
+.worksheet {
+	min-height: 500px;
+}
+
+.worksheet h2 {
+	font-size: 18px;
+	padding-left: 8px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.worksheet h6 {
+	font-size: 10px;
+	padding-left: 5px;
+	padding-bottom: 15px;
+}
+
+.worksheet span {
+	font-size: 18px;
+	padding-right: 10px;
+}
+
+.worksheet .list1 {
+	width: 170px;
+	height: 25px;
+	font-size: 12px;
+}
+
+.worksheet .input-text {
+	width: 170px;
+	height: 25px;
+	font-size: 8px;
+}
+
+.worksheet .prod-desc {	
+	min-height: 75px;
+	margin-bottom: 10px;
+	padding-bottom: 50px;
+    padding-left: 5px;
+}
+
+.worksheet .upload {
+	width: 170px;
+	height: 25px;
+	font-size: 12px;
+}
+
+.worksheet .column-form {
+	margin-right: 5px;
+}
+
+.worksheet .btn {
+	margin-bottom: 30px;
+	padding-bottom: 50px;
+}
+
+.worksheet .btn-submit {
+	font-size: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 50px;
+}
+
+
+
 }
 
 .worksheet .btn {
