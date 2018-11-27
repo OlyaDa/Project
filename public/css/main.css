@@ -414,7 +414,7 @@ body {
 	color: #000;
 }
 
-input::-webkit-input-placeholder {
+#dialog input::-webkit-input-placeholder {
 	color: #fff;
 }
 
@@ -693,6 +693,8 @@ p {
 .toggles2 li:hover {
     background-color:#e74c3c;
 }
+
+
 
 /*--------------------carousel-------------------------*/
 
@@ -1485,9 +1487,7 @@ footer img {
 		height: 33px;
 	}
 }
-/*------------------ДАЛЬШЕ ПИШЕМ СТИЛИ ПО ВТОРОМУ МАКЕТУ---------------------*/
-
-
+/*ДАЛЬШЕ ПИШЕМ СТИЛИ ПО ВТОРОМУ МАКЕТУ*/
 /*-----------------HEADER---------------*/
 
 .header{
@@ -1862,9 +1862,13 @@ footer img {
 	color: #f4f6f5;
 }
 
+.documentation li:last-child {
+	margin-right: 0;
+}
+
 .first {
 	width: 138px;
-	padding: 20px 0;
+	padding: 16px 0;
 	text-align: center;
 	background-color: #e74c3c;
 	display: inline-block;
@@ -1872,7 +1876,7 @@ footer img {
 
 .second {
 	width: 158px;
-	padding: 20px 0;
+	padding: 16px 0;
 	text-align: center;
 	background-color: #455a64;
 	display: inline-block;
@@ -1880,14 +1884,14 @@ footer img {
 
 .third {
 	width: 158px;
-	padding: 20px 0;
+	padding: 16px 0;
 	text-align: center;
 	background-color: #8bc34a;
 	display: inline-block;
 }
 
 .social-chat {
-	float: right;
+	margin-left: 155px;
 	display: inline-block;
 }
 
@@ -1937,194 +1941,6 @@ footer img {
 
 	.first {
 		width: 158px;
-	}
-}
-
-/*sasha div more second page*/
-
-/*------------------------------------------------------TABS-FILTERS navigation----------------------------------------------------------------------*/
-
-
-
-.row_more {
-	margin-left:-5px;
-	margin-right: -5px;
-
-.second_row {
-    margin-left:-15px;
-    margin-right: -15px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-
-    display: flex; /*если нужно поместить справа чот еще*/
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-.topmore {
-    padding-top: 7px;
-    padding-left: 15px;
-    padding-bottom:7px;
-    background: white;
-    width:75%;
-    margin-bottom: 40px;
-}
-
-.topmore h2 {
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-
-.more {
-    background-color: #f4f6f5;
-    padding-top:50px;
-    padding-bottom: 100px;
-}
-
-.leftside_img {
-    width:auto;
-    height: 100%;
-    font-size: 0;
-  
-}
-
-.rightside_text {
-    padding-left:20px;
-    padding-top: 15px;
-    padding-right: 32px;
-    background-color: #ffffff;
-}
-
-.rightside_text h3 {
-	font-size:14px;
-	font-family: 'Roboto', sans-serif;
-	margin-top: 0;
-}
-
-.card_more {
-    margin-bottom:20px;
-   
-}
-
-.rightside_text p {
-    font-size:12px;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 0;
-    color: #8bc34a;
-}
-
-.rightside_text span {
-    font-size:16px;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 0;
-    font-weight: bold;
-}
-
-.card_more {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-
-.col-3 {
-	padding-left:5px;
-	padding-right: 5px;
-}
-
-.left_content {
-    width:75%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-@media screen and (max-width: 1200px) {
-	.rightside_text {
-		padding-right: 19px;
-		padding-left:12px;
-	}
-
-}
-
-@media screen and (max-width: 1100px) {
-
-	.rightside_text {
-		padding-right: 9px;
-		padding-left: 7px;
-	}
-
-	.rightside_text h3 {
-		font-size:12px;
-	}
-}
-
-@media screen and (max-width: 1024px) {
-    .col-3 {
-        padding-right: 40px;
-    }
-
-    
-
-    .left_content {
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-    }
-
-
-    .topmore h2 {
-       text-align: center;
-    }
-    
-}
-
-
-@media screen and (max-width: 992px) {
-    .topmore {
-        width:95%;
-		margin:0 auto;
-		margin-bottom: 15px;
-    }
-
-.left_content {
-    width:100%;
-    -webkit-box-pack:center;
-    -ms-flex-pack:center;
-    justify-content:center;
- 
-    
-}
-.col-3 {
-    padding-right: 15px;
-}
-
-
-.rightside_text {
-    padding-left:10px;
-    padding-right: 30px;
-}
-}
-
-@media screen and (max-width: 584px) {
-	p {
-		font-size: 14px;
-		padding: 3px;
-		margin-bottom: 0px;
-	}
-
-	.rightside_text h3 {
-		margin-bottom: 5px;
-	}
-
-	.rightside_text p {
-		margin-bottom:5px;
 	}
 }
 
@@ -2255,13 +2071,6 @@ footer img {
 }
 
 }
-
-
-
-/*/////////////////////СТИЛИ ПО ТРЕТЕМУ МАКЕТУ////////////////////*/
-
-
-
 /*-----------------------------------------------------ФОРМЫ---------------------*/
 * {
 	-webkit-box-sizing: border-box;
@@ -2299,7 +2108,7 @@ footer img {
 	font-size: 48px;
 	padding: 0;
 	margin: 0;
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	margin-bottom: 40px;
 }
@@ -2309,7 +2118,8 @@ footer img {
 	margin: 0;
 	margin-bottom: 50px;
 	font-size: 20px;
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
 }
 
 .banner2 form {
@@ -2454,7 +2264,7 @@ form {
 }
 
 .worksheet h6 {
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	color: #565656;
 	padding: 0;
@@ -2467,7 +2277,7 @@ form {
 
 .worksheet span {
 	color:#8bc34a;
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
 	padding-right: 45px;
 }
@@ -2535,7 +2345,7 @@ form {
 	background-color: #8bc34a;
 	color: white;
 	font-size: 15px;
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
 	padding-left: 35px;
 	padding-right: 35px;
 	padding-top: 15px;
@@ -2543,6 +2353,7 @@ form {
 	cursor: pointer;
 	border: 0px;
 	margin-left: 235px;
+	font-weight: bold;
 }
 
 .worksheet .btn-submit:hover {
