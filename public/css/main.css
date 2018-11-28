@@ -2564,7 +2564,7 @@ footer img {
 li.active {
   border-bottom: 2px solid lightgreen;
   font-weight: bold;
-  background-color: #8bc34a !important; 
+  background-color: transparent !important; 
 }
 
 .border {
