@@ -1,0 +1,7 @@
+.tabs__content {
+  display: none; /* по умолчанию прячем все блоки */
+}
+.tabs__content.active-tab {
+  display: block; /* по умолчанию показываем нужный блок */
+}
+
