@@ -440,7 +440,7 @@ body {
 .banner {
 	font-family: 'Lato', sans-serif;
 	font-family: 'Roboto', sans-serif;
-	background: url('../images/bg.jpg') no-repeat center;
+	background: url('../images/bg.png') no-repeat center;
 	color: white;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -1948,7 +1948,7 @@ footer img {
 .banner2 {
 	font-family: 'Lato', sans-serif;
 	font-family: 'Roboto', sans-serif;
-	background: url('../images/bg.jpg') no-repeat center;
+	background: url('../images/bg.png') no-repeat center;
 	color: white;
 	display: -webkit-box;
 	display: -ms-flexbox;
