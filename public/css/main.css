@@ -496,6 +496,8 @@ body {
 	font-size: 14px;
 	border: 0;
 	border-radius: 5px 0px 0px 5px;
+	outline:none;
+	padding-left: 10px;
 }
 
 .banner .submit {
@@ -505,7 +507,8 @@ body {
 	background-color: white;
 	border-radius: 0px 5px 5px 0px;
 	padding-right: 20px;
-
+	outline:none;
+	cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -1987,6 +1990,7 @@ footer img {
 	margin-bottom: 50px;
 	font-size: 20px;
 	font-family: roboto;
+	text-align: center;
 }
 
 .banner2 form {
@@ -2008,6 +2012,8 @@ footer img {
 	font-size: 14px;
 	border: 0;
 	border-radius: 5px 0px 0px 5px;
+	outline:none;
+	padding-left: 10px;
 }
 
 .banner2 .submit {
@@ -2017,7 +2023,8 @@ footer img {
 	background-color: white;
 	border-radius: 0px 5px 5px 0px;
 	padding-right: 20px;
-
+	outline:none;
+	cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -2058,7 +2065,7 @@ footer img {
  @media (max-width: 320px) {
 
 .banner2 {
-	min-height: 250px;
+	min-height: 200px;
 }
 
 .banner2 form {
@@ -2071,7 +2078,7 @@ footer img {
 
 .banner2 p {
 	padding: 5px;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 
 }
@@ -2079,12 +2086,42 @@ footer img {
 
 
 /*---------------------------------------------------FORMS---------------------------*/
+/*bread-crumbs*/
+
+.bread-crumbs {
+	padding: 45px 0;
+}
+
+.bread-crumbs li {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #b0bec5;
+	cursor: pointer;
+}
+
+.bread-crumbs li:nth-child(2):before {
+	content: '-';
+	padding-left: 4px;
+	padding-right: 8px;
+}
+
+.bread-crumbs li:last-child:before {
+	content: '-';
+	padding-left: 4px;
+	padding-right: 8px;
+}
+
+.bread-crumbs li:last-child {
+	color: #263238;
+}
+
 /*---------------------------------------worksheet-----------------*/
 .worksheet {
 	border: solid 1px #dcdcdc;
-	border-bottom: 0px;
 	background-color: white;
-	min-height: 1115px;
+	padding-bottom: 140px;
 }
 
 .worksheet h2 {
@@ -2136,6 +2173,7 @@ footer img {
 	font-size: 15px;
 	color: #707070;
 	border: solid 1px #dcdcdc;
+	padding-left: 20px;
 }
 
 .worksheet .input-text {
@@ -2145,6 +2183,7 @@ footer img {
 	font-size: 15px;
 	color: #707070;
 	border: solid 1px #dcdcdc;
+	padding-left: 20px;
 }
 
 .worksheet .prod-desc {	
@@ -2152,7 +2191,7 @@ footer img {
 	min-height: 150px;
 	margin-bottom: 25px;
 	padding-bottom: 120px;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .worksheet .upload {
@@ -2162,6 +2201,8 @@ footer img {
 	font-size: 15px;
 	color: #707070;
 	border: solid 1px #dcdcdc;
+	padding-top: 8px;
+	padding-left: 5px;
 }
 
 .worksheet .item-form {
@@ -2175,11 +2216,6 @@ footer img {
 
 .worksheet .column-form {
 	margin-right: 50px;
-}
-
-.worksheet .btn {
-	margin-bottom: 30px;
-	padding-bottom: 100px;
 }
 
 .worksheet .btn-submit {
@@ -2199,11 +2235,19 @@ footer img {
 }
 
 .worksheet .btn-submit:hover {
-	background-color: grey;
+	opacity: .8;
+}
+
+.content-forms {
+	padding-bottom: 100px;
+}
+
+.btn-form {
+	padding-top: 40px;
 }
 
 /**----------------------------------------------------------*/
-@media (max-width: 1180px) {
+@media (max-width: 1196px) {
 
 .worksheet .list1 {
 	width: 800px;
@@ -2217,8 +2261,26 @@ footer img {
 	width: 800px;
 }
 }
+
+@media (max-width: 1116px) {
+
+.worksheet .list1 {
+	width: 700px;
+}
+
+.worksheet .input-text {
+	width: 700px;	
+}
+
+.worksheet .upload {
+	width: 700px;
+	font-size: 12px;
+	padding-top: 3px;
+}
+}
+
 /*------------------------------------------------*/
-@media (max-width: 992px) {
+@media (max-width: 1016px) {
 
 .worksheet h2 {
 	margin-top: 20px;
@@ -2258,13 +2320,21 @@ footer img {
 	height: 30px;
 }
 
+.worksheet {
+	padding-bottom: 90px;
+}
+
+.btn-form {
+	padding-top: 10px;
+}
+
+.content-forms {
+	padding-bottom: 40px;
+}
 }
 /*------------------------------------------------------------------------*/
-@media (max-width: 768px) {
-.worksheet {
-	min-height: 700px;
-}
-	
+@media (max-width: 965px) {
+
 .worksheet h6 {	
 	padding-left: 10px;
 	padding-bottom: 20px;
@@ -2275,23 +2345,9 @@ footer img {
 	padding-right: 10px;
 }
 
-.worksheet .list1 {
-	width: 500px;
-	height: 30px;
-}
-
-.worksheet .input-text {
-	width: 500px;
-	height: 30px;	
-}
-
 .worksheet .prod-desc {	
 	min-height: 100px;
 	padding-bottom: 50px;
-}
-
-.worksheet .upload {
-	width: 500px;
 }
 
 .worksheet .column-form {
@@ -2299,13 +2355,116 @@ footer img {
 }
 
 }
+
+@media (max-width: 874px) {
+
+.worksheet .list1 {
+	width:550px;
+}
+
+.worksheet .input-text {
+	width: 550px;
+}
+
+.worksheet .upload {
+	width: 550px;
+}
+
+.worksheet {
+	padding-bottom: 80px;
+}
+
+.btn-form {
+	padding-top: 5px;
+}
+
+.content-forms {
+	padding-bottom: 30px;
+}
+}
+
+@media (max-width: 774px) {
+
+.worksheet .list1 {
+	width:500px;
+}
+
+.worksheet .input-text {
+	width: 500px;
+}
+
+.worksheet .upload {
+	width: 500px;
+}
+
+}
+
+@media (max-width: 724px) {
+
+.worksheet .list1 {
+	width:450px;
+}
+
+.worksheet .input-text {
+	width: 450px;
+}
+
+.worksheet .upload {
+	width: 450px;
+}
+}
+
+@media (max-width: 674px) {
+
+.worksheet .list1 {
+	width:400px;
+}
+
+.worksheet .input-text {
+	width: 400px;
+}
+
+.worksheet .upload {
+	width: 400px;
+}
+
+}
+
+@media (max-width: 724px) {
+
+.worksheet .list1 {
+	width:450px;
+}
+
+.worksheet .input-text {
+	width: 450px;
+}
+
+.worksheet .upload {
+	width: 450px;
+}
+}
+
+@media (max-width: 674px) {
+
+.worksheet .list1 {
+	width:400px;
+}
+
+.worksheet .input-text {
+	width: 400px;
+}
+
+.worksheet .upload {
+	width: 400px;
+}
+
+}
+
 /*-----------------------------------------------------------------*/
 
-@media (max-width: 576px) {
-.worksheet {
-	min-height: 600px;
-}
-	
+@media (max-width: 624px) {
+
 .worksheet h6 {	
 	padding-left: 10px;
 	padding-bottom: 20px;
@@ -2342,18 +2501,138 @@ footer img {
 }
 
 }
+
+@media (max-width: 569px) {
+
+.worksheet .list1 {
+	width:300px;
+}
+
+.worksheet .input-text {
+	width: 300px;
+}
+
+.worksheet .upload {
+	width: 300px;
+}
+
+}
+
+@media (max-width: 509px) {
+
+.worksheet .list1 {
+	width:250px;
+}
+
+.worksheet .input-text {
+	width: 250px;
+}
+
+.worksheet .upload {
+	width: 250px;
+}
+
+}
+
+@media (max-width: 459px) {
+
+.worksheet .list1 {
+	width:200px;
+}
+
+.worksheet .input-text {
+	width: 200px;
+}
+
+.worksheet .upload {
+	width: 200px;
+}
+
+}
+
+@media (max-width: 409px) {
+
+.worksheet .list1 {
+	
+	font-size: 12px;
+}
+
+.worksheet .input-text {
+	
+	font-size: 12px;
+}
+
+.worksheet .upload {
+	
+	font-size: 12px;
+}
+
+.worksheet h6 {	
+	font-size: 12px;
+}
+
+.worksheet span {	
+	font-size: 12px;
+}
+
+.worksheet .btn-submit {
+	margin-left: 105px;
+}
+
+}
+
+@media (max-width: 379px) {
+
+.worksheet .list1 {
+	width:170px;
+	font-size: 9px
+}
+
+.worksheet .input-text {
+	width: 170px;
+	font-size: 9px
+}
+
+.worksheet .upload {
+	width: 170px;
+	font-size: 9px
+}
+
+.worksheet h6 {
+	font-size: 10px;
+}
+
+}
+
+@media (max-width: 331px) {
+
+.worksheet .list1 {
+	width:150px;
+}
+
+.worksheet .input-text {
+	width: 150px;
+}
+
+.worksheet .upload {
+	width: 150px;
+}
+
+}
+
 /*-----------------------------------------------------------*/
 @media (max-width: 320px) {
-.worksheet {
-	min-height: 500px;
+
+.bread-crumbs {
+	padding: 5px 0;
 }
 
 .worksheet h2 {
-	font-size: 18px;
+	font-size: 15px;
 	padding-left: 8px;
 	margin-top: 10px;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 .worksheet h6 {
@@ -2368,15 +2647,15 @@ footer img {
 }
 
 .worksheet .list1 {
-	width: 170px;
+	width: 250px;
 	height: 25px;
-	font-size: 12px;
+	font-size: 10px;
 }
 
 .worksheet .input-text {
-	width: 170px;
+	width: 250px;
 	height: 25px;
-	font-size: 8px;
+	font-size: 10px;
 }
 
 .worksheet .prod-desc {	
@@ -2387,9 +2666,9 @@ footer img {
 }
 
 .worksheet .upload {
-	width: 170px;
+	width: 250px;
 	height: 25px;
-	font-size: 12px;
+	font-size: 10px;
 }
 
 .worksheet .column-form {
@@ -2410,8 +2689,25 @@ footer img {
 	margin-left: 50px;
 }
 
+.worksheet .item-form {
+	display: inline-block;
+	margin-left: 5px;	
 }
 
+.worksheet {
+	padding-bottom: 50px;
+}
+
+.btn-form {
+	padding-top: 5px;
+}
+
+.content-forms {
+	padding-bottom: 10px;
+}
+
+}
+/*------------------------------------------------------*/
 /*blockmore second page*/
 .row_more {
 	margin-left:-5px;
