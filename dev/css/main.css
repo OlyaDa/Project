@@ -2081,6 +2081,87 @@ footer img {
 }
 
 }
+
+/*-----------------------------сайдбары лена-----------------------------------*/
+
+ .range-sidebar {
+	background-color: white;
+	border: solid 1px #dcdcdc;
+	font-family: roboto;
+	min-height: 245px;
+	display: flex;
+	margin-bottom: 30px;
+	display: inline-block;
+	width: 270px;
+	margin-top: 30px;
+}
+
+
+.range-sidebar h4 {
+	font-weight: bold;
+	font-size: 20px;
+	padding: 20px;
+	margin:0;
+	display: inline-block;
+	padding: 25px 30px;
+
+}
+
+.range-sidebar hr {
+	width: 205px;
+	background-color:#dcdcdc;
+	margin-bottom: 0;
+	border:0px none;
+    height:1px;
+    margin-bottom: 10px;
+}
+
+.range-sidebar .btn-range {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.range-sidebar .btn-search {
+	display: inline-block;
+	text-align: center;
+	background-color: #8bc34a;
+	color: white;
+	font-size: 15px;
+	font-family: roboto;
+	font-weight: 500;
+	cursor: pointer;
+	border: 0px;
+	min-width: 205px;
+	min-height: 45px;
+	padding: 0;
+	margin: 0;
+}
+
+.range-sidebar .btn-search:hover {
+	background-color: grey;
+}
+
+.range-sidebar .btn-search img {
+	padding-right: 10px;
+}
+
+.range {
+	margin-bottom: 30px;
+	width: 200px;	
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.range-bar {
+	margin: 0;
+	padding: 0;
+}
+
+.range-sidebar .btn-search img {
+	width: 25px;
+	height: auto;
+}
+
 /*---------------------------------------------*/
 .sales-sidebar {
 	background-color: white;
@@ -2294,6 +2375,10 @@ footer img {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
+}
+
+.worksheet textarea {
+	resize: none;
 }
 
 .worksheet .column-form {
