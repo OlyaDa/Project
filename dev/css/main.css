@@ -1733,7 +1733,7 @@ footer img {
 }
 
 .details a:hover {
-	box-shadow: 3px 3px #000, 0 0 2rem #000;
+	opacity: .7;
 }
 
 .documentation {
@@ -1783,7 +1783,7 @@ footer img {
 }
 
 .social-chat {
-	margin-left: 155px;
+	float: right;
 	display: inline-block;
 }
 
@@ -2790,7 +2790,7 @@ footer img {
 }
 
 .product {
-  max-width: 875px;
+  width: 75%;
 }
 
 .container_tabs {
@@ -2923,4 +2923,221 @@ li.active {
 
 .active {
 	background: white !important;
+}
+
+/*//////////////////////////HOVER KOZIKOV PART//////////////////*/
+
+.footer-menu a:hover {
+	text-decoration: underline;
+    text-decoration-color: #8bc34a;
+}
+
+.social form button {
+	cursor: pointer;
+}
+
+footer img:hover {
+	opacity: .7;
+}
+
+.product-author li:hover {
+	opacity: .7;
+}
+
+/*sidebar part*/
+
+.sidebar {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 15px;
+	width: 25%;
+}
+
+.product {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+
+/*//////////////////first block/////////////////////*/
+
+.product-price {
+	padding: 20px;
+	background-color: #fff;
+	margin-bottom: 30px;
+	border: 1px solid #dfdfdf;
+}
+
+.product-price h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #263238;
+	padding-bottom: 22px;
+	border-bottom: 1px solid #dfdfdf;
+	margin-bottom: 30px;
+}
+
+.product-price span {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+	color: #e74c3c;
+	margin-bottom: 32px;
+	display: inline-block;
+}
+
+.product-price select {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: #70838d;
+	padding: 6px 0;
+	width: 80px;
+	float: right;
+}
+
+.buttons-buy a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	max-width: 208px;
+	display: block;
+	padding: 18px 0;
+}
+
+.cart {
+	background-color: #8bc34a;
+	margin-bottom: 8px;
+}
+
+.cart i {
+	margin-right: 8px;
+}
+
+.favorites {
+	background-color: #42a5f5;
+	margin-bottom: 8px;
+}
+
+.favorites i {
+	margin-right: 8px;
+}
+
+.buy-now {
+	background-color: #546e7a;
+}
+
+/*//////////////////////second block///////////////////////////*/
+
+.product-author {
+	padding: 20px;
+	background-color: #fff;
+	margin-bottom: 25px;
+	border: 1px solid #dfdfdf;
+}
+
+.product-author h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #263238;
+	padding-bottom: 22px;
+	border-bottom: 1px solid #dfdfdf;
+	margin-bottom: 30px;
+}
+
+.profile {
+	margin-bottom: 25px;
+}
+
+.photo-author {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.information {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.profile h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #263238;
+	display: block;
+	vertical-align: top;
+	margin-bottom: 10px;
+}
+
+.profile a {
+	text-decoration: none;
+	color: #707070;
+	display: block;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	border: 1px solid #dfdfdf;
+	padding: 8px 16px 9px 10px;  
+}
+
+.product-author li {
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	padding: 0 3px;
+}
+
+.flexabell {
+	display: flex;
+}
+
+
+.cleaner {
+	margin: 0;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/*//////////////////////////ADAPTIVE Kozikov////////////////*/
+
+@media (max-width: 1200px) {
+	.documentation li {
+		margin-right: 13px;
+	}
+}
+
+@media (max-width: 992px) {
+	.details li {
+    	display: block;
+    	margin-bottom: 5px;
+	}
+
+	.details ul {
+    	column-count: 2;
+	}
+
+	.buttons-buy a {
+		font-size: 14px;
+	}
+
+	.product-price select {
+		float: none;
+		margin-bottom: 10px;
+	}
+
+	.product-price span {
+		margin-bottom: 10px;
+	}
 }
