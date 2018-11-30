@@ -3055,8 +3055,7 @@ li.active {
 	background: white !important;
 }
 
-
-/*sasha3*/
+/*sasha 3*/
 ul {
     margin:0;
     padding:0;
@@ -3075,7 +3074,13 @@ a {
 
 .common_block {
   
+   display: -webkit-box;
+  
+   display: -ms-flexbox;
+  
    display: flex;
+   -webkit-box-pack: end;
+   -ms-flex-pack: end;
    justify-content: flex-end;
   
 }
@@ -3085,7 +3090,10 @@ a {
 }
 
 .forblocks {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding-bottom: 60px;
 }
@@ -3136,8 +3144,14 @@ a {
     background:#ffffff;
     padding-left:20px;
     padding-right: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -3168,8 +3182,14 @@ a {
     border-top: 1px solid #d4d4d4;
     padding-right: 20px;
     padding-left:20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;  
 }
 
@@ -3185,6 +3205,8 @@ a {
 
 
 .plaginationss ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
     padding-left: 10px;
@@ -3229,7 +3251,13 @@ a {
 	padding-right: 10px;
 	padding-left:10px;
 	
+	-webkit-box-align: center;
+	
+	-ms-flex-align: center;
+	
 	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
 	justify-content: space-between;  
 }
 
@@ -3240,7 +3268,13 @@ a {
 	padding-left:10px;
 	padding-right: 10px;
 	
+	-webkit-box-pack: justify;
+	
+	-ms-flex-pack: justify;
+	
 	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
 	align-items: center;
 
 }
@@ -3280,7 +3314,13 @@ a {
 		padding-right: 3px;
 		padding-left:3px;
 		
+		-webkit-box-align: center;
+		
+		-ms-flex-align: center;
+		
 		align-items: center;
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
 		justify-content: space-between;  
 	}
 	
@@ -3291,7 +3331,13 @@ a {
 		padding-left:3px;
 		padding-right: 3px;
 		
+		-webkit-box-pack: justify;
+		
+		-ms-flex-pack: justify;
+		
 		justify-content: space-between;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
 		align-items: center;
 	}
 }
@@ -3303,4 +3349,21 @@ a {
 }
 
 
+/*правка изображений саша 3 страница*/
+
+.left_starss img {
+	width:auto;
+}
+
+.right_starss  img {
+	width:auto;
+}
+/*правка изображений саша 1 страница*/
+.left_stars img {
+	width:auto;
+}
+
+.right_stars  img {
+	width:auto;
+}
 
