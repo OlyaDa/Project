@@ -1966,6 +1966,82 @@ footer img {
 }
 
 }
+/*----------------------------------------------*/
+.sales-sidebar {
+	background-color: white;
+	border: solid 1px #dcdcdc;
+	font-family: roboto;
+	margin-bottom: 30px;
+	min-height: 60px;
+	display: flex;
+}
+
+.sales-sidebar a {
+	display: inline-block;
+	padding-left: 30px;
+	align-self: center;
+}
+
+.sales-sidebar span {
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	display: inline-block;
+	padding-left: 20px;
+	align-self: center;
+}
+
+.sales-sidebar p {
+	padding: 0;
+	margin:0;
+	font-size: 16px;
+	font-weight: lighter;
+	display: inline-block;
+	padding-left: 20px;
+	align-self: center;
+	color: #929292;
+}
+
+.product_information {
+	background-color: white;
+	border: solid 1px #dcdcdc;
+	font-family: roboto;
+	min-height: 360px;
+}
+
+.product_information h4 {
+	font-weight: bold;
+	font-size: 20px;
+	padding: 20px;
+	margin:0;
+	display: inline-block;
+	text-align: center;
+}
+
+.product_information hr {
+	width: 205px;
+	background-color:#dcdcdc;
+	margin-bottom: 25px;
+	border:0px none;
+    height:1px;
+}
+
+.product_information p {
+	font-weight: bolder;
+	font-size: 14px;
+	padding: 0;
+	margin-left: 20px;
+	margin-bottom: 25px;
+}
+
+.product_information span {
+	font-size: 14px;
+	color: #70838d;
+	margin-left: 5px;
+	font-weight: lighter;
+}
+
+
 /*/////////////////////СТИЛИ ПО ТРЕТЕМУ МАКЕТУ////////////////////*/
 
 
