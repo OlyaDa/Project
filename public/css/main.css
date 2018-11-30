@@ -125,7 +125,7 @@ body {
 	color: #000;
 }
 
-.cart {
+header .cart {
 	text-decoration: none;
 	-webkit-transition: color .3s;
 	transition: color .3s;
@@ -3142,12 +3142,12 @@ footer img:hover {
 	padding: 18px 0;
 }
 
-.cart {
+.buttons-buy .cart {
 	background-color: #8bc34a;
 	margin-bottom: 8px;
 }
 
-.cart i {
+.buttons-buy .cart i {
 	margin-right: 8px;
 }
 
