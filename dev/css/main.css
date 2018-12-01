@@ -3810,6 +3810,7 @@ a {
   justify-content: space-between;
   margin-left: 10px;
   margin-bottom: 30px;
+  background: white;
 }
 
 .sort span {
@@ -3820,6 +3821,7 @@ a {
   line-height: 14px;
   vertical-align: middle;
   display: inline-block;
+    background-color: white !important;
 }
 
 .sort span:before {
@@ -3938,6 +3940,7 @@ a {
   padding-bottom: 50px;
   margin-left: -1px;
   background-color: white;
+  margin-bottom: 105px;
 }
 
 .leftItems h2 {
