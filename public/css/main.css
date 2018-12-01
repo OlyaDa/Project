@@ -97,6 +97,7 @@ body {
 	-webkit-transition: color .3s;
 	transition: color .3s;
 	font-size: 14px;
+	margin-right: 5px;
 }
 
 .help a:hover {
@@ -192,6 +193,7 @@ header .cart {
 	text-decoration: none;
 	-webkit-transition: .3s;
 	transition: .3s;
+	cursor: pointer;
 }
 
 .btn-success {
@@ -3751,6 +3753,7 @@ a {
 }
 
 .categories {
+	margin-top: 40px;
 	background-color: #fff;
 	width: 270px;
 	border: solid 1px #dfdfdf;
@@ -3859,6 +3862,7 @@ a {
   margin-left: 10px;
   margin-bottom: 30px;
   background: white;
+  margin-top: 58px;
 }
 
 .sort span {
@@ -4110,7 +4114,7 @@ padding-left: 37px;
   text-align: center;
   -webkit-transition:.5s;
   transition:.5s;
-  padding: 15px 77px;
+  padding: 15px 40px;
   min-height: 45px;
 }
 
@@ -4120,4 +4124,30 @@ padding-left: 37px;
 
 .button:hover {
   border:1px solid darkred;
+}
+
+
+.crumbs li {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #b0bec5;
+	cursor: pointer;
+}
+
+.crumbs li:nth-child(2):before {
+	content: '-';
+	padding-left: 4px;
+	padding-right: 8px;
+}
+
+.crumbs li:last-child:before {
+	content: '-';
+	padding-left: 4px;
+	padding-right: 8px;
+}
+
+.crumbs li:last-child {
+	color: #263238;
 }
